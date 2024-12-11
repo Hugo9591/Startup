@@ -1,22 +1,17 @@
-const precio = document.querySelector('#precio');
-const contacto = document.querySelector('#contacto');
-const contenedorPrecio = document.querySelector('#contenedorPrecio');
-const contenedorContacto = document.querySelector('#contenedorContacto');
+const menua = document.querySelectorAll('.menu-a');
 
-precio.addEventListener('click', function(e){
-    e.preventDefault();
+menua.forEach(boton => {
 
-    contenedorPrecio.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    });
-});
+    boton.addEventListener('click', e =>{
+        e.preventDefault();
+        
+        const target = document.querySelector(boton.dataset.target);
 
-contacto.addEventListener('click', function(e){
-    e.preventDefault();
-
-    contenedorContacto.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    });
+        if(target){
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    })
 });

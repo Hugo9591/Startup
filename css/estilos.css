@@ -24,6 +24,8 @@ header .contenedor-logo-menu .logo a {
 }
 header .contenedor-logo-menu .logo a img {
   vertical-align: top;
+  border-radius: 10px;
+  opacity: 0.7;
 }
 header .contenedor-logo-menu .menu {
   text-align: right;
@@ -76,10 +78,10 @@ header .textos .contenedor-btns a:hover {
   color: #019851;
 }
 
-.main .caracteristicas {
+.caracteristicas {
   padding: 70px 0;
 }
-.main .caracteristicas .titulo {
+.caracteristicas .titulo {
   text-align: center;
   font-family: "Open Sans", Arial;
   font-weight: 300;
@@ -87,78 +89,62 @@ header .textos .contenedor-btns a:hover {
   color: #000;
   margin-bottom: 70px;
 }
-.main .caracteristicas .caracteristica {
+.caracteristicas .caracteristica {
   text-align: center;
 }
-.main .caracteristicas .caracteristica .icono {
+.caracteristicas .caracteristica .icono {
   vertical-align: top;
   margin-bottom: 30px;
 }
-.main .caracteristicas .caracteristica .primera-linea {
+.caracteristicas .caracteristica .primera-linea {
   font-weight: 700;
   margin-bottom: 30px;
   font-size: 20px;
 }
-.main .caracteristicas .caracteristica .parrafo {
+.caracteristicas .caracteristica .parrafo {
   margin-bottom: 30px;
   line-height: 28px;
 }
-.main .fotos {
+
+.fotos {
   margin-bottom: 70px;
 }
-.main .fotos .foto {
+.fotos .foto {
   margin-bottom: 20px;
 }
-.main .fotos .foto .thumb img {
+.fotos .foto .thumb img {
   border-radius: 5px;
   width: 100%;
   vertical-align: top;
 }
-.main .fotos .foto .titulo {
+.fotos .foto .titulo {
   margin-top: 60px;
   margin-bottom: 40px;
   font-size: 32px;
   line-height: 32px;
   font-weight: 300;
 }
-.main .fotos .foto .titulo.azul {
+.fotos .foto .titulo.azul {
   color: #4facd3;
 }
-.main .fotos .foto .titulo.naranja {
+.fotos .foto .titulo.naranja {
   color: #ddb146;
 }
-.main .fotos .foto .parrafo {
+.fotos .foto .parrafo {
   line-height: 28px;
 }
-.main .fotos .foto .derecha {
+.fotos .foto .derecha {
   text-align: right;
 }
-.main .clientes {
-  background: #2d353e;
-  padding: 40px 0;
-}
-.main .clientes .titulo {
-  text-align: center;
-  font-family: "Open Sans", Arial;
-  font-weight: 300;
-  font-size: 32px;
-  color: #fff;
-  margin-bottom: 40px;
-}
-.main .clientes .cliente {
-  text-align: center;
-}
-.main .clientes .cliente a {
-  display: block;
-}
-.main .precios {
+
+.precios {
   background: #727171;
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
   padding: 70px 0;
 }
-.main .precios .titulo {
+.precios .titulo {
   text-align: center;
   font-family: "Open Sans", Arial;
   font-weight: 300;
@@ -166,7 +152,7 @@ header .textos .contenedor-btns a:hover {
   color: #fff;
   margin-bottom: 70px;
 }
-.main .precios .plan {
+.precios .plan {
   background: #fff;
   text-align: center;
   font-family: "Open Sans", Arial;
@@ -174,28 +160,28 @@ header .textos .contenedor-btns a:hover {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
 }
-.main .precios .plan .nombre {
+.precios .plan .nombre {
   font-size: 32px;
   line-height: 32px;
   font-weight: 300;
   margin-bottom: 30px;
 }
-.main .precios .plan .precio {
+.precios .plan .precio {
   font-weight: 300;
   font-size: 48px;
   margin-bottom: 30px;
 }
-.main .precios .plan .caracteristicas {
+.precios .plan .caracteristicas {
   list-style: none;
   padding: 0px 20px;
   margin-bottom: 50px;
 }
-.main .precios .plan .caracteristicas li {
+.precios .plan .caracteristicas li {
   font-size: 18px;
   padding: 15px 0;
   border-bottom: 1px solid #dedede;
 }
-.main .precios .plan .btn {
+.precios .plan .btn {
   width: 70%;
   font-size: 16px;
   padding: 15px 0;
@@ -203,51 +189,71 @@ header .textos .contenedor-btns a:hover {
   display: inline-block;
   border-radius: 100px;
 }
-.main .precios .plan.verde .nombre,
-.main .precios .plan.verde .precio {
+.precios .plan.verde .nombre,
+.precios .plan.verde .precio {
   color: #86b773;
 }
-.main .precios .plan.verde .btn {
+.precios .plan.verde .btn {
   color: #86b773;
   border: 2px solid #86b773;
 }
-.main .precios .plan.verde .btn:hover {
+.precios .plan.verde .btn:hover {
   background: #86b773;
   color: #fff;
 }
-.main .precios .plan.active {
+.precios .plan.active {
   background: #4c8dce;
   color: #fff;
 }
-.main .precios .plan.active .btn {
+.precios .plan.active .btn {
   color: #fff;
   border: 2px solid #fff;
 }
-.main .precios .plan.active .btn:hover {
+.precios .plan.active .btn:hover {
   background: #fff;
   color: #4c8dce;
 }
-.main .precios .plan.naranja {
+.precios .plan.naranja {
   background: #ddb146;
   color: #fff;
 }
-.main .precios .plan.naranja .nombre,
-.main .precios .plan.naranja .precio {
+.precios .plan.naranja .nombre,
+.precios .plan.naranja .precio {
   color: #fff;
 }
-.main .precios .plan.naranja .btn {
+.precios .plan.naranja .btn {
   color: #fff;
   border: 2px solid #fff;
 }
-.main .precios .plan.naranja .btn:hover {
+.precios .plan.naranja .btn:hover {
   background: #fff;
   color: #ddb146;
 }
-.main .reviews {
+
+.clientes {
+  background: #2d353e;
+  padding: 40px 0;
+}
+.clientes .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial;
+  font-weight: 300;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.clientes .cliente {
+  text-align: center;
+}
+.clientes .cliente a {
+  display: block;
+}
+
+.reviews {
   background: rgb(221, 220, 220);
   padding: 70px;
 }
-.main .reviews .titulo {
+.reviews .titulo {
   text-align: center;
   font-family: "Open Sans", Arial;
   font-weight: 300;
@@ -255,42 +261,41 @@ header .textos .contenedor-btns a:hover {
   color: #4facd3;
   margin-bottom: 70px;
 }
-.main .reviews .cliente {
+.reviews .cliente {
   overflow: hidden;
   margin-bottom: 20px;
-  border-bottom: 1px dotted #000;
 }
-.main .reviews .cliente .foto {
+.reviews .cliente .foto {
   width: 20%;
   float: left;
   text-align: right;
 }
-.main .reviews .cliente .foto img {
+.reviews .cliente .foto img {
   max-width: 100px;
   width: 100%;
   vertical-align: top;
   border-radius: 100%;
 }
-.main .reviews .cliente .review {
+.reviews .cliente .review {
   float: left;
   width: 80%;
   padding: 0 30px;
   margin-top: 20px;
 }
-.main .reviews .cliente .review .texto {
+.reviews .cliente .review .texto {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 10px;
 }
-.main .reviews .cliente .review .nombre {
+.reviews .cliente .review .nombre {
   color: #ddb146;
   font-size: 14px;
 }
-.main .reviews .cliente.derecha .foto {
+.reviews .cliente.derecha .foto {
   float: right;
   text-align: left;
 }
-.main .reviews .cliente.derecha .review {
+.reviews .cliente.derecha .review {
   float: right;
   text-align: right;
 }
@@ -312,7 +317,9 @@ footer .direccion .correo {
   margin-bottom: 10px;
 }
 footer .direccion .logo img {
-  margin-top: 70px;
+  margin-top: 40px;
+  border-radius: 10px;
+  opacity: 0.5;
 }
 footer .social {
   text-align: center;

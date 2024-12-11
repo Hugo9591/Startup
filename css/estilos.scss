@@ -9,6 +9,13 @@ body{
 }
 
 @import 'header';
-@import 'main';
+
+@import 'caracteristicas';
+@import 'fotos';
+@import 'precios';
+@import 'clientes';
+@import 'reviews';
+
 @import 'footer'; 
+
 @import 'mediaqueries';

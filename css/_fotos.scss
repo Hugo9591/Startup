@@ -1,0 +1,32 @@
+.fotos{
+    margin-bottom: 70px;
+    .foto{
+        margin-bottom: 20px;
+        .thumb{
+            img{
+                border-radius: 5px;
+                width: 100%;
+                vertical-align: top;
+            }
+        }
+        .titulo{
+            margin-top: 60px;
+            margin-bottom: 40px;
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 300;
+            &.azul{
+                color: #4facd3;
+            }
+            &.naranja{
+                color: #ddb146;
+            }
+        }
+        .parrafo{
+            line-height: 28px;
+        }
+        .derecha{
+            text-align: right;
+        }
+    }
+}
