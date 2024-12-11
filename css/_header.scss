@@ -1,0 +1,74 @@
+header{
+    background: url('../img/bg.jpg'), #019851;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    .contenedor-logo-menu{
+        padding: 25px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .4);
+        .logo{
+            a{  
+                display: block;
+                img{
+                    vertical-align: top;
+                }
+            }
+        }
+        .menu{
+            text-align: right;
+            line-height: 50px;
+            a{
+                // border-radius: 6px;
+                // padding: 10px;
+                text-decoration: none;
+                color: #fff;
+                margin-left: 60px;
+                font-size: 18px;
+                &:hover{
+                    //background: rgba($color: #019851, $alpha: .5);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .textos{
+        color: #fff;
+        text-align: center;
+        margin: 200px 0;
+        .primera-linea, 
+        .sefunda-linea{
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-weight: 300;
+        }
+        .primera-linea{
+            font-size: 35px;
+            line-height: 35px;
+            margin-bottom: 30px;
+        }
+        .segunda-linea{
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 60px;
+        }
+        .contenedor-btns{
+            a{
+                background: rgba(255, 255, 255, 0.753);
+                border-radius: 5px;
+                border: 2px solid #fff;
+                color: #019851;
+                padding: 12px 0;
+                font-weight: 600;
+                width: 235px;
+                display: inline-block;
+                text-align: center;
+                margin: 0 10px;
+                text-decoration: none;
+                &:hover{
+                    background: #fff;
+                    color: #019851;
+                }
+            }
+        }
+    }
+}
